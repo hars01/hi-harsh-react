@@ -2,7 +2,9 @@
 
 ->Hooks ke hi through data update hoga.
 ->React Hooks > https://github.dev/facebook/react/blob/main/packages/react/src/ReactHooks.js
-
+-> useCallback > https://react.dev/reference/react/useCallback
+-> useEffect > https://react.dev/reference/react/useEffect
+-> useId > https://react.dev/reference/react/useId
 
 #Virtual DOM
 
@@ -12,3 +14,13 @@
 #Tailwind
 
 -> Install ke liye > https://tailwindcss.com/docs/guides/vite
+
+#React Router
+
+->Install > npm install react-router-dom
+->Outlet > Jo bhi humare website ka header aur footer hoga ushko fix rakhega aur bich me kuchh bhi change karta hai > import aese karte hai ( import { Outlet } from 'react-router-dom' )
+->Loader > Ye api me se data fetch karne ka nya tarika hai jo direct main.jsx me fetch karta hai aur ye useEffect se pahle ya kam time leta hai jaise ki jab hum click karte button me data show karne ke liye toh ye mouse ke hover hone par hi (matalab click se pahle) fetch kar leta hai aur ushe cache me rakhta hai use karne ke liye.
+
+ + NOTE
+  -> Hum <a> tag ki jagah yaha pe <LINK> tag ka use karte hai kyoki <a> tag pure link ko reload kar deta hai.
+
